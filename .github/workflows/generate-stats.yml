@@ -1,4 +1,6 @@
 name: Generate GitHub Stats
+permissions:
+  contents: write  # Grant write permission to the repository
 
 on:
   schedule:
@@ -11,7 +13,8 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Updated to v3
+
 
       - name: Generate GitHub Stats
         run: |
