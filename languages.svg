@@ -136,7 +136,7 @@
           data-testid="lang-pie"
           size="25.573507462400524"
           d="M 150 100 L 93.4164860296743 169.98789857375314 A 90 90 0 0 1 82.09605520040625 40.93178282143835 Z"
-          fill="#563d7c"
+          fill="#663399"
         />
       </g>
     
@@ -225,7 +225,7 @@
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#563d7c" />
+      <circle cx="5" cy="6" r="5" fill="#663399" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         CSS 25.57%
       </text>
